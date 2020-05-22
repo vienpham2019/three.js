@@ -10,3 +10,9 @@ console.log(path.dirname(__filename)) // /Users/vienpham/Desktop/three.js/refere
 
 // File Extention 
 console.log(path.extname(__filename)) // .js
+
+// Create path obj 
+console.log(path.parse(__filename)) //{ root: '/', dir: '/Users/vienpham/Desktop/three.js/reference', base: 'path_demo.js', ext: '.js',name: 'path_demo'}
+
+//Concatenate paths 
+console.log(path.join(__dirname , "test" , "hello.html")) // /Users/vienpham/Desktop/three.js/reference/test/hello.html
