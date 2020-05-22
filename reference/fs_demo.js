@@ -39,11 +39,11 @@ const fs = require('fs')
 // )
 
 // File rename 
-fs.rename(
-    path.join(__dirname, '/test' , 'hello.txt'),
-    path.join(__dirname, '/test' , 'helloworld.txt'),
-    error => {
-        if(error) throw error 
-        console.log("file name ... ")
-    }
-)
+// fs.rename(
+//     path.join(__dirname, '/test' , 'hello.txt'),
+//     path.join(__dirname, '/test' , 'helloworld.txt'),
+//     error => {
+//         if(error) throw error 
+//         console.log("file name ... ")
+//     }
+// )
