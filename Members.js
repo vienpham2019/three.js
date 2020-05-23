@@ -1,4 +1,4 @@
-const members = [
+let members = [
     {
         id: 1, 
         email: "memer1@gmail.com", 
